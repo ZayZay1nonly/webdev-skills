@@ -1,0 +1,58 @@
+# Agent Skills Repository
+
+A collection of skills for AI coding agents focused on modern web development workflows.
+
+## Repository Structure
+
+Skills are packaged instructions and reference files that extend agent capabilities.
+
+```
+skills/
+  {skill-name}/              # kebab-case directory name
+    SKILL.md                 # Required: skill definition
+    {REFERENCE}.md           # Optional: additional context loaded on-demand
+```
+
+## Skill Format
+
+### Directory Naming
+- Skill directory: kebab-case (e.g., `using-cli-tools`, `writing-tests`)
+- SKILL.md: Always uppercase, always this exact filename
+- Reference files: UPPERCASE.md (e.g., `PATTERNS.md`, `MOCKING.md`)
+
+### SKILL.md Structure
+
+```markdown
+---
+name: {skill-name}
+description: {One sentence describing what the skill does and when to use it. Include trigger phrases.}
+---
+
+# {Skill Title}
+
+{Instructions for the agent to follow when this skill is activated.}
+```
+
+## Available Skills
+
+| Skill | Description |
+|-------|-------------|
+| `using-cli-tools` | CLI preferences for GitHub, Supabase, Vercel, Netlify, Cloudflare, Prisma, Stripe, Docker |
+| `organizing-project-files` | Project structure conventions for React/Next.js applications |
+| `writing-commits` | Conventional Commits format, PR templates, branch naming |
+| `reviewing-code` | Structured code review with prioritized feedback (read-only) |
+| `writing-tests` | Testing strategy for unit, integration, and e2e tests |
+
+## Best Practices for Context Efficiency
+
+Skills are loaded on-demand — only the skill name and description are loaded at startup. The full `SKILL.md` loads into context only when the agent decides the skill is relevant.
+
+**Keep SKILL.md lean:**
+- Core instructions only
+- Reference detailed content in separate files
+- Let the agent load additional files as needed
+
+**Use reference files for:**
+- Detailed examples
+- Framework-specific patterns
+- Extended documentation
